@@ -1,0 +1,20 @@
+.birthday-header {
+    height: 20vh;
+    background-image: url(https://www.hobbycraft.co.uk/on/demandware.static/-/Sites-hobbycraft-uk-master/default/dwdaa34507/images/large/639353_1001_1_-giant-blue-balloons-3-pack.jpg);
+    background-size: contain;
+}
+
+.card-img-top {
+    height: 100px;
+    width: 80px;
+    margin-left: 30%;
+}
+
+.card {
+    height: 300px;
+    width: 500px;
+}
+
+.text-user-added {
+    color: rgb(150, 52, 69);
+}
