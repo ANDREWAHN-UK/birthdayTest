@@ -32,7 +32,7 @@ class Crud
         }
     }
 
-    public function getList()
+    public function getList() //this function fetches desired values from the database
     {
         $sql = "SELECT firstname, lastname FROM birthdaypeople";
         $result = $this->db->query($sql);
