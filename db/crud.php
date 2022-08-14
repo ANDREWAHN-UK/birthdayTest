@@ -10,7 +10,7 @@ class Crud
         $this->db = $conn;
     }
 
-    public function insert($fname,$lname,$email,$dob,$contact)
+    public function insert($fname,$lname,$email,$dob,$contact)//this function inserts entries into the birthday database
     {
         try {
             $sql="INSERT INTO birthdaypeople (firstname,lastname,email,dateOfBirth,contactNumber)
@@ -30,6 +30,13 @@ class Crud
             echo $e->getMessage();
             return false;
         }
+    }
+
+    public function getList()
+    {
+        $sql = "SELECT firstname, lastname FROM birthdaypeople";
+        $result = $this->db->query($sql);
+        return $result;
     }
 }
 

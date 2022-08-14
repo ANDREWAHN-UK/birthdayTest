@@ -1,7 +1,11 @@
 .birthday-header {
-    height: 20vh;
-    background-image: url(https://www.hobbycraft.co.uk/on/demandware.static/-/Sites-hobbycraft-uk-master/default/dwdaa34507/images/large/639353_1001_1_-giant-blue-balloons-3-pack.jpg);
+    height: 10vh;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/I/41IcTsttHtS.__AC_SY300_SX300_QL70_ML2_.jpg");
     background-size: contain;
+}
+
+.navbar {
+    background-color: pink;
 }
 
 .card-img-top {
@@ -17,4 +21,14 @@
 
 .text-user-added {
     color: rgb(150, 52, 69);
+}
+
+.birthday-h1 {
+    background-color: rgba(189, 189, 159, 0.61);
+    width: 40vw;
+    margin-left: 30%;
+    border-radius: 50%;
+    border: black;
+    padding: 5px;
+    margin-top: 10px;
 }

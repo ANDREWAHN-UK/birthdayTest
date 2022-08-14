@@ -14,7 +14,7 @@ if(isset($_POST['submit'])) {
     $isSuccess = $crud->insert($fname, $lname, $email, $dob,  $contact);
 
     if($isSuccess) {
-        echo "<h2 class='text-center text-user-added'>A user has been added</h2>";
+        echo "<h2 class='text-center text-success'>The user below has been added </h2>";
     } else {
         echo "<h2 class='text-center text-success'>There was an error in processing</h2>";
     };
@@ -22,7 +22,7 @@ if(isset($_POST['submit'])) {
 ?>
 <!-- Users get sent here after submitting the form -->
 
-<h2 class="text-center text-success">The list of users is below</h2>
+
 
 <div class="card" style="width: 18rem;">
     <img src="images/orangeBalloon.png" class="card-img-top" alt="...">
